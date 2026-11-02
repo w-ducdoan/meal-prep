@@ -1,0 +1,432 @@
+[
+  {
+    "id": "beef-linguine",
+    "short": "Beef Linguine",
+    "name": "Beef Linguine with Fried Egg",
+    "type": "batch",
+    "protein": "beef",
+    "base": "pasta",
+    "methods": ["stovetop"],
+    "timeMin": 30,
+    "fridgeDays": 4,
+    "macros": { "kcal": 930, "p": 57, "c": 79, "f": 41, "source": "logged" },
+    "ingredients": [
+      { "item": "ground-beef", "qty": 8, "unit": "oz", "required": true },
+      { "item": "linguine", "qty": 4, "unit": "oz", "required": true },
+      { "item": "prego", "qty": 0.5, "unit": "cup", "required": true },
+      { "item": "eggs", "qty": 1, "unit": "ea", "required": false },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false },
+      { "item": "garlic-powder", "qty": 0.5, "unit": "tsp", "required": false }
+    ],
+    "steps": [
+      { "text": "Boil a big pot of salted water and cook the linguine until al dente.", "timerMin": 10, "label": "Linguine" },
+      { "text": "Brown the beef in a wide pan with garlic powder, salt and pepper. Break it up as it cooks.", "timerMin": 8, "label": "Brown beef" },
+      { "text": "Stir in the Prego and simmer.", "timerMin": 5, "label": "Simmer sauce" },
+      { "text": "Steam the broccoli bag in the microwave.", "timerMin": 5, "label": "Broccoli" },
+      { "text": "Toss the pasta with the sauce. Portion into containers with broccoli on the side. Fry an egg fresh when you eat it." }
+    ],
+    "tags": ["comfort", "high-protein"]
+  },
+  {
+    "id": "beef-egg-bowl",
+    "short": "Beef & Egg Bowl",
+    "name": "Beef & Egg Rice Bowl",
+    "type": "batch",
+    "protein": "beef",
+    "base": "rice",
+    "methods": ["stovetop", "rice cooker"],
+    "timeMin": 25,
+    "fridgeDays": 4,
+    "macros": { "kcal": 925, "p": 44, "c": 116, "f": 29, "source": "logged" },
+    "ingredients": [
+      { "item": "ground-beef", "qty": 6, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "eggs", "qty": 2, "unit": "ea", "required": true },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false },
+      { "item": "soy-sauce", "qty": 1, "unit": "tbsp", "required": false }
+    ],
+    "steps": [
+      { "text": "Rinse the rice and start it in the rice cooker or a covered pot.", "timerMin": 20, "label": "Rice" },
+      { "text": "Brown the beef with garlic powder, salt and pepper. Splash in soy sauce at the end.", "timerMin": 8, "label": "Brown beef" },
+      { "text": "Steam the broccoli bag in the microwave.", "timerMin": 5, "label": "Broccoli" },
+      { "text": "Portion rice, beef and broccoli into containers. Fry two eggs fresh when you eat it." }
+    ],
+    "tags": ["staple", "high-protein"]
+  },
+  {
+    "id": "beef-spaghetti",
+    "short": "Beef Spaghetti",
+    "name": "Beef Spaghetti with Veg and Cheddar",
+    "type": "batch",
+    "protein": "beef",
+    "base": "pasta",
+    "methods": ["stovetop"],
+    "timeMin": 25,
+    "fridgeDays": 4,
+    "macros": { "kcal": 736, "p": 47, "c": 36, "f": 46, "source": "logged" },
+    "ingredients": [
+      { "item": "ground-beef", "qty": 6, "unit": "oz", "required": true },
+      { "item": "spaghetti", "qty": 2, "unit": "oz", "required": true },
+      { "item": "prego", "qty": 0.5, "unit": "cup", "required": true },
+      { "item": "frozen-mixed-veg", "qty": 1, "unit": "cup", "required": false },
+      { "item": "cheddar", "qty": 1, "unit": "oz", "required": false }
+    ],
+    "steps": [
+      { "text": "Boil salted water and cook the spaghetti.", "timerMin": 10, "label": "Spaghetti" },
+      { "text": "Brown the beef with garlic powder, salt and pepper.", "timerMin": 8, "label": "Brown beef" },
+      { "text": "Add the frozen mixed veg and the Prego. Simmer until the veg is hot.", "timerMin": 6, "label": "Simmer" },
+      { "text": "Toss with the spaghetti, portion, and grate cheddar on top." }
+    ],
+    "tags": ["comfort"]
+  },
+  {
+    "id": "beef-avocado-bowl",
+    "short": "Beef Avocado Bowl",
+    "name": "Beef Avocado Rice Bowl with Fried Egg",
+    "type": "batch",
+    "protein": "beef",
+    "base": "rice",
+    "methods": ["stovetop", "rice cooker"],
+    "timeMin": 25,
+    "fridgeDays": 3,
+    "macros": { "kcal": 1262, "p": 72, "c": 97, "f": 65, "source": "logged" },
+    "ingredients": [
+      { "item": "ground-beef", "qty": 8, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "avocado", "qty": 1, "unit": "ea", "required": true },
+      { "item": "eggs", "qty": 2, "unit": "ea", "required": false },
+      { "item": "frozen-mixed-veg", "qty": 1, "unit": "cup", "required": false }
+    ],
+    "steps": [
+      { "text": "Start the rice.", "timerMin": 20, "label": "Rice" },
+      { "text": "Brown the beef with garlic powder, salt and pepper.", "timerMin": 8, "label": "Brown beef" },
+      { "text": "Stir the frozen mixed veg into the beef until hot.", "timerMin": 4, "label": "Veg" },
+      { "text": "Portion rice and beef. Slice the avocado and fry the eggs fresh when you eat it." }
+    ],
+    "tags": ["big-meal", "high-protein"]
+  },
+  {
+    "id": "chicken-stir-fry",
+    "short": "Chicken Stir Fry",
+    "name": "Chicken Stir Fry with Rice",
+    "type": "batch",
+    "protein": "chicken",
+    "base": "rice",
+    "methods": ["stovetop", "rice cooker"],
+    "timeMin": 30,
+    "fridgeDays": 4,
+    "macros": { "kcal": 734, "p": 57, "c": 78, "f": 20, "source": "logged" },
+    "ingredients": [
+      { "item": "chicken-thighs", "qty": 8, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "frozen-mixed-veg", "qty": 1.5, "unit": "cup", "required": true },
+      { "item": "soy-sauce", "qty": 2, "unit": "tbsp", "required": false },
+      { "item": "oyster-sauce", "qty": 1, "unit": "tbsp", "required": false }
+    ],
+    "steps": [
+      { "text": "Start the rice.", "timerMin": 20, "label": "Rice" },
+      { "text": "Cut the thighs into bite-size pieces. Sear in a hot oiled pan without moving them, then stir.", "timerMin": 8, "label": "Sear chicken" },
+      { "text": "Add the frozen mixed veg and stir fry on high.", "timerMin": 4, "label": "Veg" },
+      { "text": "Add soy sauce, oyster sauce and a pinch of garlic powder. Toss until glossy.", "timerMin": 1, "label": "Sauce" },
+      { "text": "Portion over rice." }
+    ],
+    "tags": ["staple"]
+  },
+  {
+    "id": "thighs-sweet-potato",
+    "short": "Thighs + Sweet Potato",
+    "name": "Air-Fryer Thighs, Sweet Potato and Broccoli",
+    "type": "batch",
+    "protein": "chicken",
+    "base": "sweet potato",
+    "methods": ["air fryer"],
+    "timeMin": 45,
+    "fridgeDays": 4,
+    "macros": { "kcal": 850, "p": 60, "c": 95, "f": 25, "source": "estimate" },
+    "ingredients": [
+      { "item": "chicken-thighs", "qty": 9, "unit": "oz", "required": true },
+      { "item": "sweet-potato", "qty": 1, "unit": "lb", "required": true },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false },
+      { "item": "cooking-oil", "qty": 1, "unit": "tbsp", "required": false },
+      { "item": "smoked-paprika", "qty": 1, "unit": "tsp", "required": false },
+      { "item": "garlic-powder", "qty": 0.5, "unit": "tsp", "required": false }
+    ],
+    "steps": [
+      { "text": "Cut the sweet potato into 1-inch cubes. Toss with oil and salt.", "label": "Prep" },
+      { "text": "Air-fry the sweet potato at 400F, 15-18 min. Shake halfway.", "timerMin": 16, "airF": 400, "label": "Sweet potato 400F" },
+      { "text": "Season the thighs with smoked paprika (about 1 tsp per serving, more turns bitter), garlic powder, salt and pepper.", "label": "Season" },
+      { "text": "Air-fry the thighs at 380F, 18-22 min, flip halfway. Done at 175F inside.", "timerMin": 20, "airF": 380, "label": "Thighs 380F" },
+      { "text": "Steam the broccoli bag in the microwave.", "timerMin": 5, "label": "Broccoli" },
+      { "text": "Portion into containers. Reheat at 350F in the air fryer for 4-5 min." }
+    ],
+    "tags": ["air-fryer", "high-protein"]
+  },
+  {
+    "id": "thighs-rice",
+    "short": "Thighs + Rice",
+    "name": "Air-Fryer Thighs with Rice and Broccoli",
+    "type": "batch",
+    "protein": "chicken",
+    "base": "rice",
+    "methods": ["air fryer", "rice cooker"],
+    "timeMin": 35,
+    "fridgeDays": 4,
+    "macros": { "kcal": 860, "p": 60, "c": 100, "f": 24, "source": "estimate" },
+    "ingredients": [
+      { "item": "chicken-thighs", "qty": 9, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false },
+      { "item": "smoked-paprika", "qty": 1, "unit": "tsp", "required": false },
+      { "item": "garlic-powder", "qty": 0.5, "unit": "tsp", "required": false }
+    ],
+    "steps": [
+      { "text": "Start the rice.", "timerMin": 20, "label": "Rice" },
+      { "text": "Season the thighs with smoked paprika, garlic powder, salt and pepper.", "label": "Season" },
+      { "text": "Air-fry the thighs at 380F, 18-22 min, flip halfway. Done at 175F inside.", "timerMin": 20, "airF": 380, "label": "Thighs 380F" },
+      { "text": "Steam the broccoli bag in the microwave.", "timerMin": 5, "label": "Broccoli" },
+      { "text": "Slice the thighs and portion over rice with broccoli. Reheat at 350F for 4-5 min." }
+    ],
+    "tags": ["air-fryer", "high-protein"]
+  },
+  {
+    "id": "chicken-alfredo",
+    "short": "Chicken Alfredo",
+    "name": "Chicken Alfredo Rigatoni",
+    "type": "batch",
+    "protein": "chicken",
+    "base": "pasta",
+    "methods": ["air fryer", "stovetop"],
+    "timeMin": 35,
+    "fridgeDays": 4,
+    "macros": { "kcal": 920, "p": 68, "c": 85, "f": 32, "source": "estimate" },
+    "ingredients": [
+      { "item": "chicken-thighs", "qty": 8, "unit": "oz", "required": true },
+      { "item": "rigatoni", "qty": 3.5, "unit": "oz", "required": true },
+      { "item": "alfredo", "qty": 0.33, "unit": "cup", "required": true },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false },
+      { "item": "garlic-powder", "qty": 0.5, "unit": "tsp", "required": false }
+    ],
+    "steps": [
+      { "text": "Boil salted water and cook the rigatoni.", "timerMin": 12, "label": "Rigatoni" },
+      { "text": "Season the thighs with garlic powder, salt and pepper. Air-fry at 380F, 18-22 min, flip halfway.", "timerMin": 20, "airF": 380, "label": "Thighs 380F" },
+      { "text": "Steam the broccoli bag in the microwave.", "timerMin": 5, "label": "Broccoli" },
+      { "text": "Slice the chicken. Warm the Alfredo in the pasta pot, then toss in the rigatoni, chicken and broccoli.", "timerMin": 3, "label": "Toss" },
+      { "text": "Portion. An opened Alfredo jar keeps about 5 days, so use one jar per week." }
+    ],
+    "tags": ["comfort", "high-protein"]
+  },
+  {
+    "id": "salmon-alfredo",
+    "short": "Salmon Alfredo",
+    "name": "Salmon Alfredo Rigatoni",
+    "type": "batch",
+    "protein": "salmon",
+    "base": "pasta",
+    "methods": ["air fryer", "stovetop"],
+    "timeMin": 30,
+    "fridgeDays": 3,
+    "macros": { "kcal": 870, "p": 58, "c": 85, "f": 30, "source": "estimate" },
+    "ingredients": [
+      { "item": "salmon", "qty": 6, "unit": "oz", "required": true },
+      { "item": "rigatoni", "qty": 3.5, "unit": "oz", "required": true },
+      { "item": "alfredo", "qty": 0.33, "unit": "cup", "required": true },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false }
+    ],
+    "steps": [
+      { "text": "Boil salted water and cook the rigatoni.", "timerMin": 12, "label": "Rigatoni" },
+      { "text": "Season the salmon with salt, pepper and garlic powder. Air-fry at 400F, 8-10 min, skin side down. Check at 8.", "timerMin": 8, "airF": 400, "label": "Salmon 400F" },
+      { "text": "Steam the broccoli bag in the microwave.", "timerMin": 5, "label": "Broccoli" },
+      { "text": "Flake the salmon. Warm the Alfredo, then fold in rigatoni, salmon and broccoli.", "timerMin": 3, "label": "Toss" },
+      { "text": "Portion. Salmon keeps 3 days in the fridge, so eat these first." }
+    ],
+    "tags": ["air-fryer"]
+  },
+  {
+    "id": "garlic-soy-chicken",
+    "short": "Garlic Soy Chicken",
+    "name": "Garlic Soy Chicken Rice Bowl",
+    "type": "batch",
+    "protein": "chicken",
+    "base": "rice",
+    "methods": ["pan", "rice cooker"],
+    "timeMin": 30,
+    "fridgeDays": 4,
+    "macros": { "kcal": 910, "p": 63, "c": 90, "f": 28, "source": "estimate" },
+    "ingredients": [
+      { "item": "chicken-thighs", "qty": 8, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "soy-sauce", "qty": 2, "unit": "tbsp", "required": true },
+      { "item": "oyster-sauce", "qty": 1, "unit": "tbsp", "required": true },
+      { "item": "eggs", "qty": 1, "unit": "ea", "required": false },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false }
+    ],
+    "steps": [
+      { "text": "Start the rice.", "timerMin": 20, "label": "Rice" },
+      { "text": "Mix the glaze: soy sauce, oyster sauce, garlic powder and a splash of water.", "label": "Glaze" },
+      { "text": "Sear the thighs in an oiled pan, 5 min per side.", "timerMin": 10, "label": "Sear thighs" },
+      { "text": "Pour in the glaze and let it bubble and coat the chicken.", "timerMin": 2, "label": "Glaze" },
+      { "text": "Slice and portion over rice with broccoli. Fry an egg fresh when you eat it." }
+    ],
+    "tags": ["high-protein"]
+  },
+  {
+    "id": "fried-rice",
+    "short": "Fried Rice",
+    "name": "Fried Rice with Eggs and Peas",
+    "type": "batch",
+    "protein": ["chicken", "beef"],
+    "base": "rice",
+    "methods": ["pan"],
+    "timeMin": 25,
+    "fridgeDays": 4,
+    "macros": { "kcal": 880, "p": 60, "c": 90, "f": 28, "source": "estimate" },
+    "ingredients": [
+      { "item": ["chicken-thighs", "ground-beef"], "qty": 7, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "eggs", "qty": 2, "unit": "ea", "required": true },
+      { "item": "frozen-mixed-veg", "qty": 1, "unit": "cup", "required": false },
+      { "item": "soy-sauce", "qty": 2, "unit": "tbsp", "required": false }
+    ],
+    "steps": [
+      { "text": "Use cold, day-old rice if you have it. Otherwise cook it and spread it on a tray to cool.", "timerMin": 20, "label": "Rice" },
+      { "text": "Cook the protein in a hot oiled pan (diced chicken or crumbled beef) and set aside.", "timerMin": 7, "label": "Protein" },
+      { "text": "Scramble the eggs in the same pan, then add the mixed veg.", "timerMin": 3, "label": "Eggs + veg" },
+      { "text": "Add the rice and fry on high, pressing it flat, then tossing.", "timerMin": 4, "label": "Fry rice" },
+      { "text": "Return the protein, add soy sauce, toss and portion." }
+    ],
+    "tags": ["flexible"]
+  },
+  {
+    "id": "garlic-butter-salmon",
+    "short": "Garlic Butter Salmon",
+    "name": "Garlic Butter Salmon Rice Bowl",
+    "type": "fresh",
+    "protein": "salmon",
+    "base": "rice",
+    "methods": ["air fryer", "rice cooker"],
+    "timeMin": 25,
+    "fridgeDays": 0,
+    "macros": { "kcal": 830, "p": 53, "c": 80, "f": 30, "source": "estimate" },
+    "ingredients": [
+      { "item": "salmon", "qty": 6, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "butter", "qty": 1, "unit": "tbsp", "required": false },
+      { "item": "eggs", "qty": 1, "unit": "ea", "required": false },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false }
+    ],
+    "steps": [
+      { "text": "Start the rice, or reheat batch rice.", "timerMin": 20, "label": "Rice" },
+      { "text": "Season the salmon with salt, pepper and garlic powder. Air-fry at 400F, 8-10 min, skin side down. Check at 8.", "timerMin": 8, "airF": 400, "label": "Salmon 400F" },
+      { "text": "Melt the butter with garlic powder and spoon it over the salmon.", "label": "Garlic butter" },
+      { "text": "Fry an egg. Build the bowl: rice, salmon, broccoli, egg on top." }
+    ],
+    "tags": ["air-fryer"]
+  },
+  {
+    "id": "pad-kra-pao",
+    "short": "Pad Kra Pao",
+    "name": "Pad Kra Pao with Fried Egg",
+    "type": "fresh",
+    "protein": "pork",
+    "base": "rice",
+    "methods": ["pan"],
+    "timeMin": 20,
+    "fridgeDays": 0,
+    "macros": { "kcal": 900, "p": 50, "c": 80, "f": 40, "source": "estimate" },
+    "ingredients": [
+      { "item": "ground-pork", "qty": 7, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "oyster-sauce", "qty": 1, "unit": "tbsp", "required": true },
+      { "item": "eggs", "qty": 1, "unit": "ea", "required": false },
+      { "item": "thai-basil", "qty": 1, "unit": "cup", "required": false },
+      { "item": "thai-chili", "qty": 2, "unit": "ea", "required": false },
+      { "item": "fish-sauce", "qty": 1, "unit": "tsp", "required": false }
+    ],
+    "steps": [
+      { "text": "Start the rice, or reheat batch rice.", "timerMin": 20, "label": "Rice" },
+      { "text": "Fry garlic and chili in a hot oiled pan until fragrant.", "timerMin": 1, "label": "Garlic + chili" },
+      { "text": "Add the pork and cook, breaking it up, until browned.", "timerMin": 5, "label": "Pork" },
+      { "text": "Add fish sauce, oyster sauce and soy sauce. Toss.", "timerMin": 1, "label": "Sauce" },
+      { "text": "Off the heat, fold in the Thai basil. Serve over rice with a crispy fried egg. This one does not reheat well." }
+    ],
+    "tags": ["thai"]
+  },
+  {
+    "id": "air-fried-shrimp",
+    "short": "Air-Fried Shrimp",
+    "name": "Air-Fried Shrimp, Broccoli and Fried Eggs",
+    "type": "fresh",
+    "protein": "shrimp",
+    "base": "rice",
+    "methods": ["air fryer", "rice cooker"],
+    "timeMin": 20,
+    "fridgeDays": 0,
+    "macros": { "kcal": 625, "p": 41, "c": 76, "f": 16, "source": "logged" },
+    "ingredients": [
+      { "item": "shrimp", "qty": 8, "unit": "oz", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "frozen-broccoli", "qty": 1.5, "unit": "cup", "required": false },
+      { "item": "eggs", "qty": 2, "unit": "ea", "required": false }
+    ],
+    "steps": [
+      { "text": "Start the rice, or reheat batch rice.", "timerMin": 20, "label": "Rice" },
+      { "text": "Thaw the shrimp under cold water, pat dry, toss with oil, garlic powder, salt and pepper.", "label": "Prep shrimp" },
+      { "text": "Air-fry the shrimp at 400F, 6-8 min, shake halfway.", "timerMin": 7, "airF": 400, "label": "Shrimp 400F" },
+      { "text": "Steam the broccoli and fry two eggs. Build the bowl." }
+    ],
+    "tags": ["air-fryer", "light"]
+  },
+  {
+    "id": "kimchi-fried-rice",
+    "short": "Kimchi Fried Rice",
+    "name": "Kimchi Fried Rice with Shrimp",
+    "type": "fresh",
+    "protein": "shrimp",
+    "base": "rice",
+    "methods": ["pan"],
+    "timeMin": 20,
+    "fridgeDays": 0,
+    "macros": { "kcal": 804, "p": 61, "c": 83, "f": 23, "source": "logged" },
+    "ingredients": [
+      { "item": "shrimp", "qty": 6, "unit": "oz", "required": true },
+      { "item": "kimchi", "qty": 0.5, "unit": "cup", "required": true },
+      { "item": "rice", "qty": 0.75, "unit": "cup", "required": true },
+      { "item": "eggs", "qty": 2, "unit": "ea", "required": false },
+      { "item": "frozen-mixed-veg", "qty": 0.5, "unit": "cup", "required": false }
+    ],
+    "steps": [
+      { "text": "Use cold rice if you have it.", "label": "Rice" },
+      { "text": "Sear the shrimp in a hot oiled pan and set aside.", "timerMin": 3, "label": "Shrimp" },
+      { "text": "Fry the chopped kimchi until it caramelizes a little.", "timerMin": 3, "label": "Kimchi" },
+      { "text": "Add the rice and peas, fry on high, then return the shrimp.", "timerMin": 4, "label": "Fry rice" },
+      { "text": "Top with fried eggs." }
+    ],
+    "tags": ["korean"]
+  },
+  {
+    "id": "ribeye-sweet-potato",
+    "short": "Ribeye + Sweet Potato",
+    "name": "Ribeye and Sweet Potato",
+    "type": "fresh",
+    "protein": "ribeye",
+    "base": "sweet potato",
+    "methods": ["pan", "air fryer"],
+    "timeMin": 30,
+    "fridgeDays": 0,
+    "macros": { "kcal": 1000, "p": 50, "c": 70, "f": 50, "source": "estimate" },
+    "ingredients": [
+      { "item": "ribeye", "qty": 10, "unit": "oz", "required": true },
+      { "item": "sweet-potato", "qty": 0.75, "unit": "lb", "required": true },
+      { "item": "butter", "qty": 1, "unit": "tbsp", "required": false },
+      { "item": "frozen-broccoli", "qty": 1, "unit": "cup", "required": false }
+    ],
+    "steps": [
+      { "text": "Cube the sweet potato, toss with oil and salt, and air-fry at 400F, 15-18 min. Shake halfway.", "timerMin": 16, "airF": 400, "label": "Sweet potato 400F" },
+      { "text": "Pat the steak dry and salt it well. Heat a pan until it smokes.", "label": "Prep steak" },
+      { "text": "Sear the ribeye 3-4 min per side.", "timerMin": 7, "label": "Sear" },
+      { "text": "Add butter and garlic powder, baste for a minute.", "timerMin": 1, "label": "Baste" },
+      { "text": "Rest the steak before slicing.", "timerMin": 5, "label": "Rest" }
+    ],
+    "tags": ["treat"]
+  }
+]

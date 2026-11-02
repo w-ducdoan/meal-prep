@@ -1,0 +1,24 @@
+{
+  "cookDays": ["sun", "wed"],
+  "rotationStart": "2026-11-02",
+  "weeks": {
+    "A": {
+      "mon": ["salmon-alfredo", "beef-linguine"],
+      "tue": ["thighs-sweet-potato", "beef-linguine"],
+      "wed": ["salmon-alfredo", "thighs-sweet-potato"],
+      "thu": ["beef-egg-bowl", "chicken-stir-fry"],
+      "fri": ["garlic-butter-salmon", "beef-egg-bowl"],
+      "sat": ["chicken-stir-fry", "garlic-butter-salmon"],
+      "sun": ["beef-egg-bowl", "chicken-stir-fry"]
+    },
+    "B": {
+      "mon": ["chicken-alfredo", "beef-linguine"],
+      "tue": ["garlic-soy-chicken", "beef-linguine"],
+      "wed": ["chicken-alfredo", "garlic-soy-chicken"],
+      "thu": ["beef-egg-bowl", "fried-rice@ground-beef"],
+      "fri": ["thighs-rice", "beef-egg-bowl"],
+      "sat": ["fried-rice@ground-beef", "thighs-rice"],
+      "sun": ["beef-egg-bowl", "thighs-rice"]
+    }
+  }
+}

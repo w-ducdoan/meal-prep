@@ -1,0 +1,37 @@
+[
+  { "id": "ground-beef", "name": "Ground beef 85/15", "group": "protein", "short": "beef" },
+  { "id": "chicken-thighs", "name": "Chicken thighs", "group": "protein", "short": "chicken" },
+  { "id": "salmon", "name": "Pink salmon", "group": "protein", "short": "salmon" },
+  { "id": "shrimp", "name": "Shrimp", "group": "protein", "short": "shrimp" },
+  { "id": "ground-pork", "name": "Ground pork", "group": "protein", "short": "ground pork" },
+  { "id": "ribeye", "name": "Ribeye", "group": "protein", "short": "ribeye" },
+  { "id": "eggs", "name": "Eggs", "group": "protein", "short": "eggs" },
+  { "id": "protein-powder", "name": "Protein powder", "group": "protein", "short": "protein powder" },
+
+  { "id": "rice", "name": "Long grain rice (dry)", "group": "carb", "short": "rice" },
+  { "id": "linguine", "name": "Linguine", "group": "carb", "short": "linguine" },
+  { "id": "rigatoni", "name": "Rigatoni", "group": "carb", "short": "rigatoni" },
+  { "id": "spaghetti", "name": "Spaghetti", "group": "carb", "short": "spaghetti" },
+  { "id": "sweet-potato", "name": "Sweet potatoes", "group": "carb", "short": "sweet potato" },
+
+  { "id": "frozen-broccoli", "name": "Frozen broccoli", "group": "veg", "short": "broccoli" },
+  { "id": "frozen-mixed-veg", "name": "Frozen mixed veg", "group": "veg", "short": "mixed veg" },
+  { "id": "avocado", "name": "Avocado", "group": "veg", "short": "avocado" },
+  { "id": "kimchi", "name": "Kimchi", "group": "veg", "short": "kimchi" },
+  { "id": "thai-basil", "name": "Thai basil", "group": "veg", "short": "Thai basil" },
+  { "id": "thai-chili", "name": "Thai chili", "group": "veg", "short": "Thai chili" },
+
+  { "id": "prego", "name": "Prego roasted garlic", "group": "sauce", "short": "Prego" },
+  { "id": "alfredo", "name": "RAGU Alfredo", "group": "sauce", "short": "Alfredo" },
+  { "id": "oyster-sauce", "name": "Oyster sauce", "group": "sauce", "short": "oyster sauce" },
+  { "id": "fish-sauce", "name": "Fish sauce", "group": "sauce", "short": "fish sauce" },
+  { "id": "cheddar", "name": "Cheddar", "group": "sauce", "short": "cheddar" },
+
+  { "id": "soy-sauce", "name": "Soy sauce", "group": "staple", "staple": true, "short": "soy sauce" },
+  { "id": "cooking-oil", "name": "Cooking oil", "group": "staple", "staple": true, "short": "oil" },
+  { "id": "salt", "name": "Salt", "group": "staple", "staple": true, "short": "salt" },
+  { "id": "black-pepper", "name": "Black pepper", "group": "staple", "staple": true, "short": "pepper" },
+  { "id": "garlic-powder", "name": "Garlic powder", "group": "staple", "staple": true, "short": "garlic powder" },
+  { "id": "smoked-paprika", "name": "Smoked paprika", "group": "staple", "staple": true, "short": "smoked paprika" },
+  { "id": "butter", "name": "Butter", "group": "staple", "staple": true, "short": "butter" }
+]

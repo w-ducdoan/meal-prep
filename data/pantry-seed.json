@@ -1,0 +1,28 @@
+{
+  "order": "2026-11-01",
+  "delivered": "2026-11-02",
+  "nextOrder": "2026-11-16",
+  "items": {
+    "ground-beef": { "in": true, "lb": 6 },
+    "chicken-thighs": { "in": true, "lb": 5.6 },
+    "salmon": { "in": true, "lb": 2 },
+    "eggs": { "in": true },
+    "protein-powder": { "in": true },
+    "rice": { "in": true },
+    "linguine": { "in": true },
+    "rigatoni": { "in": true },
+    "sweet-potato": { "in": true },
+    "frozen-broccoli": { "in": true },
+    "frozen-mixed-veg": { "in": true },
+    "prego": { "in": true },
+    "alfredo": { "in": true },
+    "oyster-sauce": { "in": true },
+    "soy-sauce": { "in": true },
+    "cooking-oil": { "in": true },
+    "salt": { "in": true },
+    "black-pepper": { "in": true },
+    "garlic-powder": { "in": true },
+    "smoked-paprika": { "in": true },
+    "butter": { "in": true }
+  }
+}
